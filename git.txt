@@ -27,6 +27,8 @@ git log
 
 
 git branch
+git branch -v   see the last commit on each branch
+git branch -d (branchname) delete a branch
 git checkout
 git merge
 
