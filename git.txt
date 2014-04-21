@@ -12,6 +12,11 @@ git add filename
 git add '*.txt'
 git add .
 git add *
+/////////////
+git add -A stages All
+git add . stages new and modified, without deleted
+git add -u stages modified and deleted, without new
+//////////////////
 // remove files from the staging area
 git rm 
 // records a snapshot of the staging area
@@ -24,7 +29,7 @@ git status
 git status -s        -s option will give you short output
 
 git log
-
+    :q
 
 git branch
 git branch -v   see the last commit on each branch
@@ -34,7 +39,7 @@ git merge
 
 
 
-//////////////////////////////////   服务器
+//////////////////////////////////   服务器remote 
 // 移除地址名
 git remote rm origin
 // 显示地址名
@@ -56,13 +61,16 @@ git fetch
 $ git config --global user.name 'Your Name'
 $ git config --global user.email you@somedomain.com
 
+git reset
+The HEAD last commit snapshot, next parent
+The Index next proposed commit snapshot
 
 
 
+git mergetool
 
-
-
-
+$ git rm --cached *.pyc
+https://coderwall.com/p/wrxwog
 
 
 
