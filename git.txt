@@ -74,3 +74,14 @@ https://coderwall.com/p/wrxwog
 
 
 
+git status -s sign:
+MM  left-commit right-add
+
+A
+M
+U
+
+
+
+
+
