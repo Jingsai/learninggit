@@ -61,7 +61,7 @@ git fetch
 $ git config --global user.name 'Your Name'
 $ git config --global user.email you@somedomain.com
 
-git reset  后退commit记录，和文件内容无关，文件内容是add
+git reset
 The HEAD last commit snapshot, next parent
 The Index next proposed commit snapshot
 
