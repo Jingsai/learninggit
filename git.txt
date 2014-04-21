@@ -75,7 +75,9 @@ https://coderwall.com/p/wrxwog
 
 
 git status -s sign:
-MM  left-commit right-add
+MM  left_green:after_add 
+    right_red:before_add
+	nothing:after commit
 
 A
 M
